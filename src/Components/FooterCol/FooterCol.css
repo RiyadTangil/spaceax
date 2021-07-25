@@ -1,0 +1,19 @@
+.columnContainer{
+  
+border-right:2px solid white!important;
+border-bottom:2px solid white!important;
+}
+@media screen  and (max-width: 768px) {
+ 
+    .columnContainer{
+  
+        border-right:0px solid white!important;
+        
+        }
+       .newsletter, .columnContainer h6{
+            font-size:13px!important;
+        }
+        .newsletter, .columnContainer ul li{
+            font-size:10px!important;
+        }
+}

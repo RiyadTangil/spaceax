@@ -1,0 +1,23 @@
+.card{
+    /* height: 500px!important; */
+    background-color:rgb(255, 255, 255) !important;
+    margin:20px 0px !important;
+}
+.card-body p{
+    font-size:9px;
+}
+.card a{
+    color:#072b5f;
+    font-weight: bold;
+   
+}
+.card .icon-color{
+    color: #0a63e8;
+    width:10%;
+    padding-right:5px;
+}
+@media screen  and (max-width: 768px) {
+    .card span{
+        font-size:13px !important;
+    }
+}

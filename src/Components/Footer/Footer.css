@@ -1,0 +1,89 @@
+.footer-container{
+  background-color: #efefef;
+}
+.copyrightContainer{
+  height:120px;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+background-color: #efefef;
+}
+@media screen  and (max-width: 768px) {
+  .copyrightContainer small {
+    font-size:8px;
+  }
+  .copyrightContainer img {
+    width: 100px;
+  }
+  
+}
+
+
+
+
+.animate-border {
+    position: relative;
+    display: block;
+    width: 115px;
+    height: 3px;
+    background: #ed664c;
+  }
+  
+  .animate-border:after {
+    position: absolute;
+    content: "";
+    width: 35px;
+    height: 3px;
+    left: 0;
+    bottom: 0;
+    border-left: 10px solid #fff;
+    border-right: 10px solid #fff;
+    -webkit-animation: animborder 2s linear infinite;
+    animation: animborder 2s linear infinite;
+  }
+  
+  @-webkit-keyframes animborder {
+    0% {
+      -webkit-transform: translateX(0px);
+      transform: translateX(0px);
+    }
+    100% {
+      -webkit-transform: translateX(81px);
+      transform: translateX(81px);
+    }
+  }
+  
+  @keyframes animborder {
+    0% {
+      -webkit-transform: translateX(0px);
+      transform: translateX(0px);
+    }
+    100% {
+      -webkit-transform: translateX(81px);
+      transform: translateX(81px);
+    }
+  }
+  
+  .animate-border.border-white:after {
+    border-color: #fff;
+  }
+  
+  .animate-border.border-yellow:after {
+    border-color: #f5b02e;
+  }
+  
+  .animate-border.border-orange:after {
+    border-right-color: #007bff;
+    border-left-color: #007bff;
+  }
+  
+  .animate-border.border-ash:after {
+    border-right-color: #eef0ef;
+    border-left-color: #eef0ef;
+  }
+  
+  .animate-border.border-offwhite:after {
+    border-right-color: #f7f9f8;
+    border-left-color: #f7f9f8;
+  }
+  
